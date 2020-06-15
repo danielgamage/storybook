@@ -1,6 +1,6 @@
 
 module.exports = {
-  stories: ['./src/**/*.stories.*'],
+  stories: ['./src/*.stories.*'],
   logLevel: 'debug',
   addons: ['@storybook/addon-essentials', '@storybook/addon-controls'],
   typescript: {
